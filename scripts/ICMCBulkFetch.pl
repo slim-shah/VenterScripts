@@ -5,7 +5,7 @@ Bulk fetch from IChnageMyCity.com
 use Time::HiRes qw(usleep);
 
 $MAX_PAGES = 8000;
-#The sity name should make a valid url.
+#The city name should make a valid url.
 #For example, the city name for Bhubaneswar is bhubaneswar due to the url:http://www.ichangemycity.com/bhubaneswar/"
 #Bangalore -> bangalore
 #Mumbai -> mumbai/smw [http://www.ichangemycity.com/mumbai/smw/]
